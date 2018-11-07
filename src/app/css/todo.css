@@ -1,0 +1,38 @@
+.component-body {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.list:hover {
+  cursor: pointer;
+  color:blue;
+  background-color: #eee;
+}
+
+.item {
+  font-size: 20px;
+
+  padding: 5px 550px 5px 0px;
+}
+
+.handle-delete {
+  color: red;
+  font-weight: bold;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.handle-delete:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
